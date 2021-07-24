@@ -12,7 +12,7 @@ class Database {
     }
 
     connect() {
-        mongoose.connect("mongodb+srv://yesilscience:GWDz7vmkGZkPhftE@yesilsciencedb.hx98n.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+        mongoose.connect("mongodb+srv://hkhkhk.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
         .then(() => {
             console.log("database connection successful");
         })
